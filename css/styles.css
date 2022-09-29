@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: lowercase;
+}
+
+h1 {
+    margin: 3.125rem auto 0 auto;
+    font-size: 5.625em;
+    font-family: 'EB Garamond', serif;
+    text-transform: lowercase;
+    color: #120b1a;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    text-transform: lowercase;
+    color: #6b4188;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: lowercase;
+    font-size: 2.2rem;
+}
+
+hr {
+    width: 10%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 0.5rem;
+    border-color: #F0D9FF;
+    margin: 6rem auto 6rem auto;
+
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+a {
+    color: #704996;
+    text-decoration: none;
+    margin: 0.5rem 0.7rem;
+}
+
+a:hover {
+    color: #b795da;
+}
+
+.top-container {
+    background-color: #F0D9FF;
+    position: relative;
+    padding-top: 6.25rem;
+    margin: 0px;
+}
+
+.middle-container {
+    margin: 6rem auto 6rem auto;
+}
+
+.bottom-container { 
+    background-color: #C9CCD5;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 19rem;
+    top: 3.125rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 19rem;
+    bottom: 19rem;
+}
+
+.flowers {
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+.profile {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    line-height: 1.5;
+}
+
+.profile-image {
+    width: 50%;
+}
+
+.skill-row {
+    margin: 4rem auto 4rem auto;
+    width: 50%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.html-css {
+    width: 20%;
+    float: left;
+    margin: 1.5rem;
+}
+
+.languages {
+    width: 20%;
+    float: right;
+    margin: 1.5rem;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    line-height: 1.5;
+}
+
+.copyright {
+    color: #120b1a;
+    font-size: 1rem;
+    padding: 20px 0 0;
+}
+
+.myButton {
+	background: linear-gradient(to bottom, #e4d8dc 5%, #ffe3e3 100%);
+	background-color:#e4d8dc;
+	border-radius:25px;
+	display:inline-block;
+	cursor: pointer;
+	color:#6b4188;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	padding: 16px 31px;
+	text-decoration: none;
+}
+.myButton:hover {
+	background: linear-gradient(to bottom, #ffe3e3 5%, #e4d8dc 100%);
+	background-color:#ffe3e3;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
